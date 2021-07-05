@@ -1689,6 +1689,7 @@ img {
   line-height: 150%;
   color: var(--light-grey);
   background: var(--bg-input);
+  border: none;
   outline: none;
 }
 
@@ -1713,7 +1714,7 @@ img {
 }
 
 .news-letter__button-form {
-  padding: 12px 20px 8px 20px;
+  padding: 12px 20px 12px 20px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1723,7 +1724,7 @@ img {
   color: var(--basic-white);
   text-transform: uppercase;
   background: var(--bg-nav);
-  border: none;
+  border: none;  
 }
 
 .news-letter__button-form:hover,
@@ -2147,6 +2148,17 @@ img {
   .registration-button {
     width: 300px;
   }
+  
+.modal-close::before,
+.modal-close::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 3px;
+  left: 0;
+  top: 0;
+  background: var(--basic-white);
+}
 }
 
 @media only screen and (max-device-width: 586px) {
