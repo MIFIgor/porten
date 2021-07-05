@@ -1750,7 +1750,7 @@ img {
   }
 
   .info {
-    background-color: var(--bg-watch);
+    background: var(--bg-watch);
   }
 
   .about-shop {
@@ -1932,7 +1932,7 @@ img {
   }
 }
 
-@media only screen and (max-device-width: 586px) {
+@media only screen and (max-device-width: 830px) {
 
   .footer-bottom__copyright,
   .footer-bottom__link {
