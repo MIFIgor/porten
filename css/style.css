@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*Fonts*/
 
 @font-face {
@@ -113,7 +120,7 @@
   display: grid;
   -ms-grid-rows: auto 1fr auto;
   grid-template-rows: auto 1fr auto;
-      grid-template-areas:
+          grid-template-areas:
     "header"
     "main"
     "footer";
@@ -197,6 +204,8 @@ img {
 /* main-header ----------------->*/
 
 .main-header {  
+  -ms-grid-row: 1;  
+  -ms-grid-column: 1;  
   grid-area: header;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -759,6 +768,8 @@ img {
 /* Main ------------------------------------>*/
 
 .main-content {  
+  -ms-grid-row: 2;  
+  -ms-grid-column: 1;  
   grid-area: main;
 }
 
@@ -2214,6 +2225,8 @@ img {
 /* footer-bottom -----------------------> */
 
 .footer-bottom {  
+  -ms-grid-row: 3;  
+  -ms-grid-column: 1;  
   grid-area: footer;
   width: 100%;
   min-height: 50px;
